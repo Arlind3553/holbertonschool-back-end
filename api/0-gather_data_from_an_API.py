@@ -21,7 +21,6 @@ if __name__ == "__main__":
             count += 1
     print(
         'Employee {} is done with tasks({}/{}):'
-        .format(user['name'], len(completed_tasks), count), file = sys.stdout
-    )
+        .format(user['name'], len(completed_tasks), count))
     for i in completed_tasks:
-        print('\t {}'.format(i['title']), file = sys.stdout)
+        print('\t {}'.format(i['title']))
