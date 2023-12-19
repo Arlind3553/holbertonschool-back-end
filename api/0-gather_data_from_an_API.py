@@ -29,4 +29,3 @@ if __name__ == "__main__":
     print(f" with tasks({len(completed_tasks)}/{nr_tasks}):")
     for title in completed_title:
         print(f"\t {title}")
-        
